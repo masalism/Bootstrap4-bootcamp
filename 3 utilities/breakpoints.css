@@ -1,0 +1,31 @@
+/* // Extra small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap */
+
+body {
+    background: red;
+}
+
+
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+    body {
+        background: orange;
+    }
+}
+@media (min-width: 768px) { 
+    body {
+        background: green;
+    }
+}
+@media (min-width: 992px) { 
+    body {
+        background: yellow;
+    }
+}
+@media (min-width: 1200px) { 
+    body {
+        background: blueviolet;
+    }
+}
+

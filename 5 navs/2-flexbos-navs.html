@@ -5,16 +5,76 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>NAVS</title>
+    <title>FLEXBOX + NAVS</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
 </head>
 
 <body>
+    <div class="container">
+        <h1>Flexbox + Navs</h1>
+        <nav class="nav flex-column flex-sm-row">
+            <a class="nav-link active" href="#">Active</a>
+            <a class="nav-link" href="#">Link</a>
+            <a class="nav-link" href="#">Link</a>
+            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+        </nav>
+
+        <nav class="nav justify-content-end">
+            <a class="nav-link active" href="#">Active</a>
+            <a class="nav-link" href="#">Link</a>
+            <a class="nav-link" href="#">Link</a>
+            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+        </nav>
+
+        <nav class="nav justify-content-center">
+            <a class="nav-link active" href="#">Active</a>
+            <a class="nav-link" href="#">Link</a>
+            <a class="nav-link" href="#">Link</a>
+            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+        </nav>
+        <nav class="nav justify-content-between">
+            <a class="nav-link active" href="#">Active</a>
+            <a class="nav-link" href="#">Link</a>
+            <a class="nav-link" href="#">Link</a>
+            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+        </nav>
+        <nav class="nav justify-content-around">
+            <a class="nav-link active" href="#">Active</a>
+            <a class="nav-link" href="#">Link</a>
+            <a class="nav-link" href="#">Link</a>
+            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+        </nav>
+        <nav class="nav justify-content-between justify-content-md-center">
+            <a class="nav-link active" href="#">Active</a>
+            <a class="nav-link" href="#">Link</a>
+            <a class="nav-link" href="#">Link</a>
+            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+        </nav>
+
+        <nav class="nav nav-pills">
+            <a class="nav-item nav-link active" href="#">Active</a>
+            <a class="nav-item nav-link" href="#">Much longer nav link</a>
+            <a class="nav-item nav-link" href="#">Link</a>
+            <a class="nav-item nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+        </nav>
+        <nav class="nav nav-pills nav-fill">
+            <a class="nav-item nav-link active" href="#">Active</a>
+            <a class="nav-item nav-link" href="#">Much longer nav link</a>
+            <a class="nav-item nav-link" href="#">Link</a>
+            <a class="nav-item nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+        </nav>
+        <nav class="nav nav-pills nav-justified">
+            <a class="nav-item nav-link active" href="#">Active</a>
+            <a class="nav-item nav-link" href="#">Much longer nav link</a>
+            <a class="nav-item nav-link" href="#">Link</a>
+            <a class="nav-item nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+        </nav>
+    </div>
 
 
-    
+
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>

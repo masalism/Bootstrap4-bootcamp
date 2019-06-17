@@ -10,10 +10,44 @@
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
 </head>
+
 <body>
 
+    <div class="container">
+        <h1>Offset collumns</h1>
+        <div class="row border">
+            <div class="col-4 offset-md-1 border">
+                <h1>Col-4</h1>
+            </div>
+            <div class="col-5 offset-md-2 border">
+                <h1>Col-4</h1>
+            </div>
+        </div>
+    </div>
 
-    
+    nested-grid
+    <div class="container-fluid">
+        <div class="row border">
+            <div class="col-sm border">
+                <h1>Left</h1>
+            </div>
+            <div class="col-sm border">
+                <h1>Right</h1>
+                <div class="row border border-success">
+                    <div class="col-sm-4 border">1</div>
+                    <div class="col-sm-4 border">2</div>
+                    <div class="col-sm-4 border">3
+                        <div class="row">
+                            <div class="col-lg-3 border border-danger">3</div>
+                            <div class="col-lg-9 border border-danger">9</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>

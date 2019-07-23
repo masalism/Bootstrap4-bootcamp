@@ -1,0 +1,11 @@
+//customize colors
+
+$theme-colors: (
+  "primary": #7992a8,
+  "danger": #8f100a,
+  "secondary": #654,
+  "warning": #054386
+);
+
+//import boostrap
+@import "../bootstrap/scss/bootstrap";

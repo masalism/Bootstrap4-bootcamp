@@ -1,17 +1,16 @@
-$bg-color: hsl(0, 100%, 80%);
+$bg-color: rgb(170, 35, 91);
 
 body {
     background: $bg-color;
 }
-
 nav {
     background: yellow;
     font-size: 20px;
     li {
         background: green;
-        a{
+        font-size: 20px;
+        a {
             background: purple;
-            font-size: 40px;
         }
     }
 }
